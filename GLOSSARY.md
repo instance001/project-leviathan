@@ -1,0 +1,16 @@
+# Glossary (Repo Excerpt)
+
+For the full glossary, see: https://github.com/instance001/Whatisthisgithub/blob/main/GLOSSARY.md
+
+This file contains only the glossary entries for this repository. Mapping tag legends and global notes live in the full glossary.
+
+## project-leviathan
+| Term | Alternate term(s) | Alt map | External map | Relation to existing terminology | What it is | What it is not | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Project Leviathan | leviathan | ~ | ~ | Host-side cognition architecture specification | Document-only architecture bundle for host-side memory, relational reasoning, earned abstraction, assumption tracking, and cognitive depth control | Not an implementation repo; not a product scaffold; not model weights | project-leviathan/README.md |
+| Relational Permutation Engine | RPE | = | ~ | Host-level relational comparison engine | Mechanism for holding concrete cases together, rotating them through comparison vectors, preserving like/unlike/unknown/contradiction outputs, and promoting only tested abstractions | Not a one-shot model answer; not freeform analogy generation | project-leviathan/RELATIONAL_PERMUTATION_ENGINE.md |
+| Dual Cold Memory and Deep Recall | dual cold memory, deep recall | ~ | ~ | Two-layer long-term memory design | Split between a searchable cold atlas of compressed summaries and a cold evidence log of exact source records for attribution and auditability | Not raw-log stuffing; not summary-only memory | project-leviathan/DUAL_COLD_MEMORY_AND_DEEP_RECALL.md |
+| Why Library | semantic why structures | ~ | ~ | Evidence-backed conceptual knowledge layer | Accumulated map of why observations relate, differ, inherit parent properties, fail child classifications, or remain unresolved | Not a dictionary of labels; not unsupported taxonomy growth | project-leviathan/SEMANTIC_ASSIMILATION_AND_WHY_LIBRARY.md |
+| Assumption Freeze | frozen assumptions | ~ | ~ | Before/after interpretation boundary | Mechanism for preserving the exact interpretive frame held before new evidence is processed so bias, drift, and post-hoc rationalisation remain inspectable | Not a claim that the old assumption is true; not refusal to revise | project-leviathan/ASSUMPTION_FREEZE_AND_WORLDVIEW_BRANCHING.md |
+| Cognitive Economy Governor | depth governor, negative control layer | ~ | ~ | Reasoning-depth control layer | Host-owned governor that limits reasoning depth, memory descent, permutations, EF retries, worldview branching, lesson promotion effort, and explanation burden | Not a truth engine; not evidence suppression; not anti-curiosity | project-leviathan/COGNITIVE_ECONOMY_GOVERNOR.md |
+| Host-to-Model Relational Abstraction Bridge | relational abstraction bridge | ~ | ~ | Curriculum/evaluation bridge | Path for converting host-earned relational traces into staged training curricula and evaluation batteries for model-internalised abstraction skills | Not proof that the model has internalised the skill; not removal of host verification | project-leviathan/HOST_TO_MODEL_RELATIONAL_ABSTRACTION_BRIDGE.md |

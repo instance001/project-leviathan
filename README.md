@@ -54,6 +54,8 @@ Abstraction only when earned.
 
 The core release contains six architecture documents.
 
+Local terminology for this repository is summarized in `GLOSSARY.md`.
+
 ### Relational Permutation Engine
 
 File: `RELATIONAL_PERMUTATION_ENGINE.md`
