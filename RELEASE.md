@@ -25,6 +25,12 @@ is built in separate repositories.
 - `RELEASE.md`
 - `LICENSE`
 
+## Subsequent Specification Additions
+
+- `SEMANTIC_OBJECT_COMPILER.md` - added after the initial public release
+  marker as a concept / research direction for compiling granular semantic
+  material into persistent, inspectable semantic objects.
+
 ## Repository Scope
 
 This release is document-only.

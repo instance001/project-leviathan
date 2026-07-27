@@ -40,6 +40,7 @@ The system should be able to:
 - freeze assumptions before new evidence is interpreted;
 - track worldview-dependent conclusions without rewriting history;
 - prevent unnecessary recursive analysis;
+- compile granular semantic material into persistent, manipulable objects;
 - promote only tested, traceable abstractions.
 
 The guiding principle is simple:
@@ -68,12 +69,14 @@ flowchart LR
 
     rpe --> outputs["Like / unlike / unknown / contradiction"]
     outputs --> why["Why Library<br/>evidence-backed conceptual structure"]
-    why --> promotion["Promotion gate<br/>abstraction only after tests"]
+    why --> compiler["Semantic Object Compiler<br/>ports, latches, blockers, invariants"]
+    compiler --> promotion["Promotion gate<br/>abstraction only after tests"]
     promotion --> bridge["Host-to-model bridge<br/>curriculum packs + evaluations"]
 
     governor["Cognitive Economy Governor<br/>depth, cost, and stop control"] -. limits .-> recall
     governor -. limits .-> rpe
     governor -. limits .-> worldview
+    governor -. limits .-> compiler
     governor -. limits .-> promotion
 
     classDef record fill:#eef7f2,stroke:#25624f,color:#14231d;
@@ -81,13 +84,13 @@ flowchart LR
     classDef control fill:#f3f0ea,stroke:#777,color:#333;
 
     class evidence,memory,outputs,why record;
-    class recall,rpe,interpretation,worldview,promotion,bridge process;
+    class recall,rpe,interpretation,worldview,compiler,promotion,bridge process;
     class assumption,governor control;
 ```
 
 ## Documents
 
-The core release contains six architecture documents.
+The core specification set contains seven architecture documents.
 
 Local terminology for this repository is summarized in `GLOSSARY.md`.
 
@@ -124,6 +127,17 @@ characterised, compared, sorted into semantic Why structures, provisionally
 placed under supported parent concepts, kept out of unsupported child concepts,
 and preserved as residue when they do not yet fit.
 
+### Semantic Object Compiler
+
+File: `SEMANTIC_OBJECT_COMPILER.md`
+
+Defines a proposed host-governed compiler that turns granular snippets,
+relations, and semantic clusters into persistent, modular, inspectable objects.
+It introduces ports, gear teeth, latch conditions, blockers, tolerances,
+invariants, uncertainty markers, and provenance hatches so higher-order
+reasoning can manipulate structured semantic objects rather than repeatedly
+rebuilding meaning from fragments.
+
 ### Assumption Freeze and Worldview Branching
 
 File: `ASSUMPTION_FREEZE_AND_WORLDVIEW_BRANCHING.md`
@@ -157,13 +171,14 @@ and tool discipline.
 1. `RELATIONAL_PERMUTATION_ENGINE.md`
 2. `DUAL_COLD_MEMORY_AND_DEEP_RECALL.md`
 3. `SEMANTIC_ASSIMILATION_AND_WHY_LIBRARY.md`
-4. `ASSUMPTION_FREEZE_AND_WORLDVIEW_BRANCHING.md`
-5. `COGNITIVE_ECONOMY_GOVERNOR.md`
-6. `HOST_TO_MODEL_RELATIONAL_ABSTRACTION_BRIDGE.md`
+4. `SEMANTIC_OBJECT_COMPILER.md`
+5. `ASSUMPTION_FREEZE_AND_WORLDVIEW_BRANCHING.md`
+6. `COGNITIVE_ECONOMY_GOVERNOR.md`
+7. `HOST_TO_MODEL_RELATIONAL_ABSTRACTION_BRIDGE.md`
 
 This order starts with the core comparison engine, then adds memory, concept
-assimilation, temporal integrity, depth control, and finally the
-training/evaluation bridge.
+assimilation, compiled semantic objects, temporal integrity, depth control, and
+finally the training/evaluation bridge.
 
 ## Repository Boundary
 
@@ -179,6 +194,7 @@ Possible future implementation repositories may include:
 
 - memory record prototypes;
 - relational permutation test chambers;
+- semantic object compiler experiments;
 - assumption-freeze audit tools;
 - cognitive-governor experiments;
 - curriculum or evaluation generators;
