@@ -50,6 +50,41 @@ Comparison second.
 Abstraction only when earned.
 ```
 
+## Architecture Map
+
+This map gives the high-level shape before the six documents below. It is a
+conceptual flow, not an implementation dependency graph.
+
+```mermaid
+flowchart LR
+    evidence["Exact evidence records<br/>source, sequence, direction"] --> memory["Dual cold memory<br/>atlas + evidence log"]
+    memory --> recall["Deep recall<br/>hydrate exact detail only when needed"]
+    memory --> rpe["Relational Permutation Engine<br/>compare cases explicitly"]
+    recall --> rpe
+
+    assumption["Assumption freeze<br/>capture prior frame"] --> interpretation["New observation<br/>independent characterization"]
+    interpretation --> rpe
+    assumption --> worldview["Worldview branches<br/>track divergent interpretations"]
+
+    rpe --> outputs["Like / unlike / unknown / contradiction"]
+    outputs --> why["Why Library<br/>evidence-backed conceptual structure"]
+    why --> promotion["Promotion gate<br/>abstraction only after tests"]
+    promotion --> bridge["Host-to-model bridge<br/>curriculum packs + evaluations"]
+
+    governor["Cognitive Economy Governor<br/>depth, cost, and stop control"] -. limits .-> recall
+    governor -. limits .-> rpe
+    governor -. limits .-> worldview
+    governor -. limits .-> promotion
+
+    classDef record fill:#eef7f2,stroke:#25624f,color:#14231d;
+    classDef process fill:#fff8ec,stroke:#9b5b2e,color:#2a1b10;
+    classDef control fill:#f3f0ea,stroke:#777,color:#333;
+
+    class evidence,memory,outputs,why record;
+    class recall,rpe,interpretation,worldview,promotion,bridge process;
+    class assumption,governor control;
+```
+
 ## Documents
 
 The core release contains six architecture documents.
