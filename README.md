@@ -30,6 +30,12 @@ for:
 Leviathan treats cognition as an auditable host process rather than a single
 model response.
 
+Terminology boundary: in this repository, cognition, memory, worldview,
+metacognition, and reasoning language refers to proposed host-side architecture
+for preserving evidence, controlling retrieval, comparing interpretations, and
+testing abstractions. It is not a claim of model consciousness, sentience,
+personhood, subjective experience, or self-owned truth.
+
 The system should be able to:
 
 - preserve exact evidence separately from summaries;

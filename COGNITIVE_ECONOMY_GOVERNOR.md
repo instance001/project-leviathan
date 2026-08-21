@@ -37,7 +37,7 @@ It decides whether more cognition is justified.
 
 ## Human Analogy
 
-The governor is the human-equivalent internal voice that says:
+The governor is an engineering analogue of the human internal voice that says:
 
 - hold your tongue;
 - keep it simple, stupid;
