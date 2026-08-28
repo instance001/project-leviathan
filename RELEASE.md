@@ -30,6 +30,31 @@ is built in separate repositories.
 - `SEMANTIC_OBJECT_COMPILER.md` - added after the initial public release
   marker as a concept / research direction for compiling granular semantic
   material into persistent, inspectable semantic objects.
+- `MEMORY_WORLDVIEW_AND_BOOPER_HYPOTHESIS.md` - added as an exploratory design
+  note connecting layered memory, worldview formation, fast relevance nudges,
+  and A+B=C candidate emergence.
+- `CLOCKWORK_COGNITION_CORE.md` - added as a working architecture hypothesis
+  for host-shaped mechanical cognition, where model-supplied positive
+  possibility is folded through accumulated constraints and negative geometry.
+- `LEVIATHAN_NEGATIVE_SPACE_FARMING_AND_PUB_TEST.md` - added as a staged
+  candidate-discovery and adversarial testing specification for pressure-driven
+  thread activation, negative-space farming, Cold C application, and Pub Test
+  evaluation.
+- `LEVIATHAN_CONNECTIVE_TISSUE_AND_MICRO_GOVERNANCE.md` - added as connective
+  tissue and micro-governance notes for handoff, timing, activation, local
+  quality control, resource pressure, and maiden-run containment.
+- `LEVIATHAN_COGNITIVE_GEARS_AND_TUNING_FORK_CALIBRATION.md` - added as a
+  working architecture and experimental specification for validated task-fit
+  operating regimes and calibration worlds.
+- `LEVIATHAN_BLIND_STAGE_REASONING_AND_CONTROLLED_NOVELTY_CALIBRATION.md` -
+  added as a frozen, blind-stage reasoning and controlled novelty calibration
+  specification.
+- `IMAGINATION_TRANSFORM_ATLAS_AND_LEARNING_LAW_PROBES.md` - added as a bounded
+  imagination and transform-tracing specification for studying host-bound
+  novelty and possible learning-law patterns.
+- `CLOCKWORK_COGNITION_BIOLOGICAL_PARALLEL.md` - added as a comparison note
+  between Clockwork Cognition and a contemporary brain-wave control theory,
+  limited to shape-level parallels rather than substrate equivalence.
 
 ## Repository Scope
 
