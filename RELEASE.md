@@ -30,9 +30,30 @@ is built in separate repositories.
 - `SEMANTIC_OBJECT_COMPILER.md` - added after the initial public release
   marker as a concept / research direction for compiling granular semantic
   material into persistent, inspectable semantic objects.
+- `WITHHELD_C_BASE_CORPUS_PROTOCOL.md` - added as the controlled base protocol
+  for measuring derivation of a withheld conclusion from grounded premises.
+- `LEVIATHAN_COGNITIVE_CARTOGRAPHY.md` - added as a research programme for
+  mapping cognitive reach, bridge cost, productive depth, and failure terrain.
+- `TOPOLOGICAL_TRIANGULATION_AND_THE_LIGHTHOUSE_MODEL.md` - added as a
+  measurement metaphor for expanding a cognitive map from verified landmarks.
+- `COGNITIVE_TOPOLOGY_MESHING_GEARS_HYPOTHESIS.md` - added as a testable
+  hypothesis about measurable compatibility and transfer between learned
+  relational structures.
+- `CROSS_DOMAIN_RELATIONAL_AFFORDANCE_MAP.md` - added as a research lane for
+  measuring directed cross-domain assistance in withheld-C derivation.
+- `BEYOND_WITHHELD_C_TOWARD_GENERAL_COGNITIVE_CARTOGRAPHY.md` - added as a
+  cautious extension of the cartography method toward other cognitive
+  transitions beyond deduction.
 - `MEMORY_WORLDVIEW_AND_BOOPER_HYPOTHESIS.md` - added as an exploratory design
   note connecting layered memory, worldview formation, fast relevance nudges,
   and A+B=C candidate emergence.
+- `leviathan_booper_gap_response_hypothesis.docx` - added as a provisional
+  hypothesis that boopers act as local gap-response operators: they detect
+  insufficiently supported representational transitions, characterise the
+  deficiency, and select or route a bounded corrective response, including the
+  option to preserve an explicit unknown.
+- `leviathan_booper_gap_response_hypothesis.md` - Markdown mirror of the
+  gap-response operator hypothesis for browser-based reading and citation.
 - `CLOCKWORK_COGNITION_CORE.md` - added as a working architecture hypothesis
   for host-shaped mechanical cognition, where model-supplied positive
   possibility is folded through accumulated constraints and negative geometry.

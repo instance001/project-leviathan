@@ -196,6 +196,62 @@ host-supported abstraction from model-internalised abstraction and proposes
 tests for transfer, boundary detection, false analogy rejection, calibration,
 and tool discipline.
 
+### Withheld-C Base Corpus Protocol
+
+File: `WITHHELD_C_BASE_CORPUS_PROTOCOL.md`
+
+Defines the controlled experimental primitive for testing whether a model can
+derive a withheld conclusion C from grounded A and B premises. It covers domain
+competence calibration, contamination audits, synthetic microdomains, distance
+manipulation, outcome classes, and the distinction between honest gap
+recognition and unsupported completion.
+
+### Project Leviathan Cognitive Cartography
+
+File: `LEVIATHAN_COGNITIVE_CARTOGRAPHY.md`
+
+Defines a mapping programme for measuring what novel territory a model can
+reach from known relational structure, at what cost and reliability. It treats
+verified derivations as landmarks and tracks threadhopping, bridge cost,
+productive depth, launch points, dead ends, and hallucination cliffs.
+
+### Topological Triangulation and the Lighthouse Model
+
+File: `TOPOLOGICAL_TRIANGULATION_AND_THE_LIGHTHOUSE_MODEL.md`
+
+Develops the lighthouse metaphor for cognitive cartography: a verified
+withheld-C derivation is a survey peg rather than a complete map. Repeated,
+independent, evidence-checked arrivals let the host infer hidden cognitive
+topology without promoting plausible but unverified conclusions.
+
+### Cognitive Topology and the Meshing Gears Hypothesis
+
+File: `COGNITIVE_TOPOLOGY_MESHING_GEARS_HYPOTHESIS.md`
+
+Proposes that compatibility between learned relational structures can be
+measured as topology: direct and directional transfer, bridge cost,
+intermediate representations, compound assistance, slippage, and cumulative
+propagation. The gear metaphor remains subordinate to empirical measurement.
+
+### Cross-Domain Relational Affordance Map
+
+File: `CROSS_DOMAIN_RELATIONAL_AFFORDANCE_MAP.md`
+
+Defines a research lane for measuring which learned domains act as enabling
+machinery for withheld-C derivations in other domains. It models assistance as
+directed, potentially higher-order relationships rather than assuming that
+transfer is symmetric or universally useful.
+
+### Beyond Withheld C Toward General Cognitive Cartography
+
+File: `BEYOND_WITHHELD_C_TOWARD_GENERAL_COGNITIVE_CARTOGRAPHY.md`
+
+Extends the withheld-C method cautiously beyond deduction toward other
+measurable cognitive transitions, including analogy, generalisation, causal
+inference, category formation, contradiction detection, assumption revision,
+salience selection, missing-structure recognition, and intermediate-concept
+construction.
+
 ### Memory, Worldview, and the Booper Hypothesis
 
 File: `MEMORY_WORLDVIEW_AND_BOOPER_HYPOTHESIS.md`
@@ -203,6 +259,18 @@ File: `MEMORY_WORLDVIEW_AND_BOOPER_HYPOTHESIS.md`
 Defines an exploratory link between layered memory, worldview formation,
 gut-instinct-like nudges, and the fast primitives that may shape A+B=C
 candidate emergence before explicit recall or analysis.
+
+### Leviathan Boopers as Gap-Response Operators
+
+Files: `leviathan_booper_gap_response_hypothesis.md` and
+`leviathan_booper_gap_response_hypothesis.docx`
+
+Preserves a hypothesis, arising from Project Mímir, that a booper may be a
+local gap-response operator. Rather than merely adding another reasoning step,
+it detects insufficiently supported representational geometry, characterises
+the void, and selects or routes a bounded response such as evidence retrieval,
+representation shift, decomposition, rerouting, escalation, or preservation
+of an explicit unknown.
 
 ### Clockwork Cognition Core
 
@@ -272,21 +340,30 @@ biological mechanism and explicit host architecture.
 5. `ASSUMPTION_FREEZE_AND_WORLDVIEW_BRANCHING.md`
 6. `COGNITIVE_ECONOMY_GOVERNOR.md`
 7. `HOST_TO_MODEL_RELATIONAL_ABSTRACTION_BRIDGE.md`
-8. `MEMORY_WORLDVIEW_AND_BOOPER_HYPOTHESIS.md`
-9. `CLOCKWORK_COGNITION_CORE.md`
-10. `LEVIATHAN_NEGATIVE_SPACE_FARMING_AND_PUB_TEST.md`
-11. `LEVIATHAN_CONNECTIVE_TISSUE_AND_MICRO_GOVERNANCE.md`
-12. `LEVIATHAN_COGNITIVE_GEARS_AND_TUNING_FORK_CALIBRATION.md`
-13. `LEVIATHAN_BLIND_STAGE_REASONING_AND_CONTROLLED_NOVELTY_CALIBRATION.md`
-14. `IMAGINATION_TRANSFORM_ATLAS_AND_LEARNING_LAW_PROBES.md`
-15. `CLOCKWORK_COGNITION_BIOLOGICAL_PARALLEL.md`
+8. `WITHHELD_C_BASE_CORPUS_PROTOCOL.md`
+9. `LEVIATHAN_COGNITIVE_CARTOGRAPHY.md`
+10. `TOPOLOGICAL_TRIANGULATION_AND_THE_LIGHTHOUSE_MODEL.md`
+11. `COGNITIVE_TOPOLOGY_MESHING_GEARS_HYPOTHESIS.md`
+12. `CROSS_DOMAIN_RELATIONAL_AFFORDANCE_MAP.md`
+13. `BEYOND_WITHHELD_C_TOWARD_GENERAL_COGNITIVE_CARTOGRAPHY.md`
+14. `MEMORY_WORLDVIEW_AND_BOOPER_HYPOTHESIS.md`
+15. `leviathan_booper_gap_response_hypothesis.md`
+16. `CLOCKWORK_COGNITION_CORE.md`
+17. `LEVIATHAN_NEGATIVE_SPACE_FARMING_AND_PUB_TEST.md`
+18. `LEVIATHAN_CONNECTIVE_TISSUE_AND_MICRO_GOVERNANCE.md`
+19. `LEVIATHAN_COGNITIVE_GEARS_AND_TUNING_FORK_CALIBRATION.md`
+20. `LEVIATHAN_BLIND_STAGE_REASONING_AND_CONTROLLED_NOVELTY_CALIBRATION.md`
+21. `IMAGINATION_TRANSFORM_ATLAS_AND_LEARNING_LAW_PROBES.md`
+22. `CLOCKWORK_COGNITION_BIOLOGICAL_PARALLEL.md`
 
 This order starts with the core comparison engine, then adds memory, concept
 assimilation, compiled semantic objects, temporal integrity, depth control, and
 the training/evaluation bridge. The later documents then develop worldview
-substrate, clockwork constraint mechanics, negative-space testing, host
-connective tissue, operating-regime calibration, blind-stage novelty audits,
-bounded imagination, and biological comparison notes.
+substrate, a controlled withheld-C probe, cognitive cartography, triangulation,
+measured transfer and cross-domain assistance, gap-response control, clockwork
+constraint mechanics, negative-space testing, host connective tissue,
+operating-regime calibration, blind-stage novelty audits, bounded imagination,
+and biological comparison notes.
 
 ## Repository Boundary
 
