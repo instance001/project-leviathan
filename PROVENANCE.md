@@ -32,3 +32,7 @@ GitHub API licence field at inventory time: `AGPL-3.0`. This is a metadata obser
 ## Evidence and limitations
 
 Evidence: authenticated GitHub API metadata captured by the FMI provenance audit. Contribution, prior art, ownership, contributors, document licensing, relationships, releases, and publication status require human verification.
+
+## Evidence-led lineage position
+
+The repository README identifies Leviathan as a public architecture and experimental specification bundle rather than an implementation repository. Its documented contribution is a proposed, auditable host-side arrangement for evidence preservation, retrieval control, interpretation comparison, and abstraction management. `SPECIFIED` is appropriate; this record does not claim that memory, reasoning, retrieval, or abstraction are novel or validated. Project Mímir documents a related but separate provenance-preserving comparison specification; no code dependency is asserted here.
